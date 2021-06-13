@@ -48,6 +48,6 @@ const User = conn.define("user",{
     }
 });
 
-// User.sync({force: true}).then(() => {});
+User.sync({force: true}).then(() => {});
 
 module.exports = User;

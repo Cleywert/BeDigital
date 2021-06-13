@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
 
-const conn = new Sequelize("bemolApp","root","",{
+const conn = new Sequelize("bemolapp","root","",{
     host: "localhost",
     dialect: "mysql"
 });

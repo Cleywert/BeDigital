@@ -1,0 +1,30 @@
+1. A solução deve ser disponibilizada em Cloud ou On-premise?
+
+-- Tendo em vista que a plataforma deve ser disponibilizada para o maior tipo de dispositivos possíveis e ser escalável devido ao alcance de usuários que a instituição possui, a solução mais viável é que seja disponibilizada em Cloud.
+
+
+2. Considerando a participação de 4 pessoas técnicas para o desenvolvimento dessa
+solução, responda qual ferramenta acreditas ser apropriada para o controle de
+tarefas da equipe, a ferramenta é ágil?
+
+-- Recomendo a utilização de dois possíveis ferramentas: ClickUp e Trello. Ambas as ferramentas prestam suporte a métodologias ágeis, entretanto prefiro trabalhar com o ClickUp pois permite gerenciar vários projetos em um workspace, especificar mais detalhadamente as atividades, fornece um layout mais fluído e de fácil vizualição e criar espaços próprios para documentos e até criar documentos dentro da própria plataforma.
+
+Além da ferramenta digital, também gosto de montar um quadro de atividades no local de trabalho presencial pois funciona como apoio visual e deixa o ambiente de trabalho um pouco mais dinâmico.
+
+
+3. Você se sente capaz de liderar esta equipe? Por quê?
+
+-- Sim pois em minhas experiências anteriores tive o privilégio de trabalhar próximo a gerentes e Scrum Masters que me orientaram e tiraram dúvidas sobre técnicas de gerências. Tive também o privilégio de, em uma de minhas experiências profissionais, participar de um  curso focado na metodologia Scrum.
+Isto somado aos meus estudos e ao conteúdo que recebo na graduação que faço me dão uma boa base e certa confiança para liderar ou moderar uma equipe.
+
+Além das Hard Skills citadas, também considero que uma equipe é formada por pessoas, que passam por problemas e possuem opniões e personalidades diferentes e, por isso, me disponho sempre a ser flexível e conciliar problemas.
+
+
+4. Se pudesse sugerir uma melhoria, mudança ou oportunidade. O que seria?
+
+-- Uma modificação possível para o projeto é a utilização do framework React/React Native, pois tem suporte tanto para web quanto para aplicações mobiles, o que permite uma equipe com mais unificada em tecnlogias, o que evita o risco de atrasar o projeto por uma possível ausência de desenvolvedores.
+
+
+5. Acha válido esse desafio para o processo que está participando?
+
+-- Sim pois me permite mostrar conhecimentos e habilidades pertinentes aos desafios que possivelmente encontrarei na Bemol e que estou disposto a realizá-los e aprender o que for mais adequado para solucionar os problemas propostos.

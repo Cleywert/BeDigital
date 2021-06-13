@@ -20,8 +20,8 @@ Pré requisitos
 A aplicação está dividida em camada front-end e back-end utilizando dois frameworks, então, antes de continuar certifique-se que tenha instalado em sua máquina os framewors: Node.js e Vue.js. <br>
 Também será necessário criar uma base de dados para o projeto.
 
-Criando uma Base de Dados
-=========
+## Criando uma Base de Dados
+
 Para executar o projeto, é necessário possuir uma base de dados local com o nome de "bemolapp". Não é necessário executar ou criar qualquer tabela, apenas a base de dados, como na imagem abaixo: <br>
 ![banco de dados](https://cleywert.dev/imgs/banco-be.png)
 <br>
@@ -32,8 +32,7 @@ Após a criação do banco, abra o arquivo "database.js" que encontra-se no dire
 Caso você não possua um servidor de banco local, veja como instalar um [aqui](https://www.mysql.com)
 
 
-Instalando o node
-=========
+## Instalando o node
 
 #### Para Linux: <br>
 Para instalar o node no linux basta abrir o terminal de comando e executar como super usuário:
@@ -66,8 +65,8 @@ npm --version
 ```
 * A informação de versão de cada pacote deve ser exibida
 
-Instalando o Vue
-=========
+## Instalando o Vue
+
 Para instalar o Vue é necessário que tenhamos o pacote npm instalado na máquina, portanto é necessário que se cumpra as instruções de [instalação do node](#instalando-o-node).
 <br>
 Tendo o node instalado, basta agora abrir o terminal de comando e executar os seguintes comandos:
@@ -82,8 +81,8 @@ vue
 Uma lista de comandos como esta deve aparecer: <br>
 ![Comandos Vue](https://cleywert.dev/imgs/comando-vue-be.png)
 
-Instalando Dependências
-=========
+## Instalando Dependências
+
 Após a instalação dos frameworks e o download do projeto concluídos, navege através do terminal até as pastas onde se encontram o package.json de cada camada. A partir da raiz deste repositório navegue para: <br>
 
 ```bash
@@ -104,8 +103,8 @@ npm i
 ```
 Em cada diretório deve ser criada uma pasta "node_modules" que contém as bibliotecas de dependência deste projeto
 
-Rodando a Aplicação
-=========
+## 🎲 Rodando a Aplicação
+
 Para rodar a aplicação abra duas guias do terminal de comandos, em um deles você navegará até o diretório da api (api/) e, no outro, até o diretório do front-end (be-digital/). <br>
 No terminal que navegamos até o diretório da api, execute o seguinte comando: 
 ```bash
@@ -122,7 +121,7 @@ Em seguida abra o link localhost que aparecerá no terminal do front-end
 ![npm run serve](https://cleywert.dev/imgs/npm-run-serve-terminal-be.png)
 
 
-Tecnologias
+🛠️ Tecnologias
 =========
 As seguintes tecnologias foram utilizadas neste projeto:
 - [Vue.js](https://br.vuejs.org)
@@ -132,14 +131,20 @@ As seguintes tecnologias foram utilizadas neste projeto:
 - [API Mercado Livre](api.mercadolibre.com/sites/)
 
 
-Autor
+📝 Autor
 =========
 
 <a href="https://cleywert.dev/">
- <img style="border-radius: 50%; width: 100px;" src="https://avatars.githubusercontent.com/u/48801253?s=96&v=4" alt=""/>
+ <img src="https://avatars.githubusercontent.com/u/48801253?s=96&v=4" width="100px" alt=""/>
  <br />
  <sub>
    <b>Cleywert Rayol</b>
  </sub>
 </a>
-<a href="https://cleywert.dev/" title="">🚀</a>
+<a href="https://cleywert.dev/" title="">🪐</a>
+<br><br>
+<p>Desenvolvido com muita dedicação por Cleywert Rayol 👋🏾 Entre em contato!</p>
+
+
+[![Linkedin Badge](https://img.shields.io/badge/-Cleywert-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cleywert/)](https://www.linkedin.com/in/cleywert)
+[![Gmail Badge](https://img.shields.io/badge/-ctsr@icomp.ufam.edu.br-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ctsr@icomp.ufam.edu.br)](mailto:ctsr@icomp.ufam.edu.br)

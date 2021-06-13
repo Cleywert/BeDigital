@@ -9,11 +9,11 @@ Também será necessário criar uma base de dados para o projeto.
 Criando uma Base de Dados
 =========
 Para executar o projeto, é necessário possuir uma base de dados local com o nome de "bemolapp". Não é necessário executar ou criar qualquer tabela, apenas a base de dados, como na imagem abaixo: <br>
-![banco de dados](https://cleywert.dev/imgs/banco.png)
+![banco de dados](https://cleywert.dev/imgs/banco-be.png)
 <br>
 Após a criação do banco, abra o arquivo "database.js" que encontra-se no diretório deste repositório "api/database/" e insira a senha do seu servidor de banco local no terceiro parâmetro da instancia "new Sequelize" como na imagem abaixo, onde encontram-se aspas vazias:
 <br>
-![Arquivo de conexão](https://cleywert.dev/imgs/databasejs.png)
+![Arquivo de conexão](https://cleywert.dev/imgs/databasejs-be.png)
 <br>
 Caso você não possua um servidor de banco local, veja como instalar um [aqui](https://www.mysql.com)
 
@@ -66,4 +66,25 @@ Para garantir a instalação, execute o seguinte comando:
 vue
 ```
 Uma lista de comandos como esta deve aparecer: <br>
-![Comandos Vue](https://cleywert.dev/imgs/comando-vue.png)
+![Comandos Vue](https://cleywert.dev/imgs/comando-vue-be.png)
+
+Instalando Dependências
+=========
+Após a instalação dos frameworks e o download do projeto consluídos, navege através do terminal até as pastas onde se encontram o package.json de cada camada. A partir da raiz deste repositório navegue para: <br>
+
+```bash
+api/
+```
+e execute o comando:
+
+```bash
+npm i
+```
+Isto irá instalar todas as dependências da camada de back-end e criar a pasta node modules. Em seguida realize o mesmo processo para a camada de front-end navegando, a partir da raiz deste repositório, para o diretório:
+```bash
+front-end/projetos/
+```
+e execute novamente o comando:
+```bash
+npm i
+```

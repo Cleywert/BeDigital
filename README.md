@@ -1,6 +1,20 @@
 # BeDigital
 Plataforma para unificar os serviços Bemol
 
+Tabela de conteúdos
+=========
+<!--ts-->
+* [Tabela de conteúdos](#tabela-de-conteúdos)
+* [Pré requisitos](#pré-requisitos)
+  * [Criando uma base de dados](#criando-uma-base-de-dados)
+  * [Instalando o Node](#instalando-o-node)
+  * [Instalando o Vue](#instalando-o-vue)
+  * [Instalando Dependências](#instalando-dependências)
+* [Rodando a aplicação](#rodando-a-aplicação)
+* [Tecnologias](#tecnologias) 
+<!--te-->
+
+
 Pré requisitos
 =========
 A aplicação está dividida em camada front-end e back-end utilizando dois frameworks, então, antes de continuar certifique-se que tenha instalado em sua máquina os framewors: Node.js e Vue.js. <br>
@@ -70,7 +84,7 @@ Uma lista de comandos como esta deve aparecer: <br>
 
 Instalando Dependências
 =========
-Após a instalação dos frameworks e o download do projeto consluídos, navege através do terminal até as pastas onde se encontram o package.json de cada camada. A partir da raiz deste repositório navegue para: <br>
+Após a instalação dos frameworks e o download do projeto concluídos, navege através do terminal até as pastas onde se encontram o package.json de cada camada. A partir da raiz deste repositório navegue para: <br>
 
 ```bash
 api/
@@ -82,9 +96,50 @@ npm i
 ```
 Isto irá instalar todas as dependências da camada de back-end e criar a pasta node modules. Em seguida realize o mesmo processo para a camada de front-end navegando, a partir da raiz deste repositório, para o diretório:
 ```bash
-front-end/projetos/
+be-digital/
 ```
 e execute novamente o comando:
 ```bash
 npm i
 ```
+Em cada diretório deve ser criada uma pasta "node_modules" que contém as bibliotecas de dependência deste projeto
+
+Rodando a Aplicação
+=========
+Para rodar a aplicação abra duas guias do terminal de comandos, em um deles você navegará até o diretório da api (api/) e, no outro, até o diretório do front-end (be-digital/). <br>
+No terminal que navegamos até o diretório da api, execute o seguinte comando: 
+```bash
+nodemon index.js
+```
+![nodemon](https://cleywert.dev/imgs/nodemon-terminal-be.png)
+<br>
+E no terminal que navegamos até o diretório do front-end, execute o seguinte comando:
+```bash
+npm run serve
+```
+Em seguida abra o link localhost que aparecerá no terminal do front-end
+<br>
+![npm run serve](https://cleywert.dev/imgs/npm-run-serve-terminal-be.png)
+
+
+Tecnologias
+=========
+As seguintes tecnologias foram utilizadas neste projeto:
+- [Vue.js](https://br.vuejs.org)
+- [Node.js](https://nodejs.org/pt-br/)
+- [MySql](https://www.mysql.com)
+- [API ViaCep](https://viacep.com.br)
+- [API Mercado Livre](api.mercadolibre.com/sites/)
+
+
+Autor
+=========
+
+<a href="https://cleywert.dev/">
+ <img style="border-radius: 50%; width: 100px;" src="https://avatars.githubusercontent.com/u/48801253?s=96&v=4" alt=""/>
+ <br />
+ <sub>
+   <b>Cleywert Rayol</b>
+ </sub>
+</a>
+<a href="https://cleywert.dev/" title="">🚀</a>
